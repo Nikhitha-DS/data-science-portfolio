@@ -4,7 +4,6 @@
 -- 2) Excessive discounts
 -- 3) Duplicate or abnormal refunds
 
-
 -- 1. Invoices where final amount does not match total payments
 SELECT 
     i.invoice_id,
