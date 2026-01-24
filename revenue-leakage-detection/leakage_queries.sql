@@ -1,4 +1,9 @@
 -- Revenue Leakage Detection Queries
+-- Purpose: Identify potential revenue loss due to
+-- 1) Payment mismatches
+-- 2) Excessive discounts
+-- 3) Duplicate or abnormal refunds
+
 
 -- 1. Invoices where final amount does not match total payments
 SELECT 
