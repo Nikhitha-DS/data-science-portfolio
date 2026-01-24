@@ -1,16 +1,27 @@
-# Data Science Portfolio - Nikhitha
+# Revenue Leakage Detection System
 
-This repository contains real-world, business-focused data science projects
-built using Python and SQL. Each project is designed to reflect industry-level
-problem solving and analytical thinking.
+Status: In Progress
 
-## Projects
-- Revenue Leakage Detection System (In Progress)
+## Business Problem
+Organizations often lose revenue due to incorrect billing, missing payments, excessive discounts, or duplicate refunds. These issues are hard to detect
+without systematic data analysis.
 
-## Skills
-- Python (Pandas, NumPy, Matplotlib)
-- SQL (Joins, CTEs, Window Functions)
-- Data Analysis & Business Insights
+## Project Objective
+To identify potential revenue leakage using SQL-based analysis and highlight high-risk invoices and customers.
 
-## Status
-Active – projects are being developed incrementally.
+## Data Overview
+- Customers
+- Invoices
+- Payments
+- Refunds
+
+## Analysis Approach
+- Designed a relational database schema
+- Wrote SQL queries to detect:
+  - Payment mismatches
+  - Unusually high discounts
+  - Multiple refunds on the same invoice
+
+## Tools Used
+- SQL (Joins, CTEs, Aggregations)
+- GitHub for version control
