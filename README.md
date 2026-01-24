@@ -6,9 +6,6 @@ problem solving and analytical thinking.
 
 ## Projects
 - Revenue Leakage Detection System
-- Job Market Intelligence Platform
-- Customer Churn Root Cause Analysis
-- Fraud Pattern Discovery Engine
 
 ## Skills
 - Python (Pandas, NumPy, Matplotlib)
